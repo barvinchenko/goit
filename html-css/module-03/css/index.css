@@ -27,7 +27,7 @@ body {
 }
 
 .wrapper {
-  width: 900px;
+  width: 910px;
   margin: 0 auto;
 }
 
@@ -55,6 +55,9 @@ nav a{
   text-transform: uppercase;
   color: #000000;
 }
+nav a:active{
+  color: #03a9f4;
+}
 
 .nav_1{
   margin:0 118px 0 34px;
@@ -71,56 +74,61 @@ nav a{
 main{
   display:block;
   margin: 0 auto;
-  width: 905px;
+  width: 910px;
 }
 
 article{
   display: inline-block;
-  width: 425px;
+  width: 420px;
   height: 610px;
 }
 
 .side_left{
-  float:left;
+  margin-left:5px;
+  margin-right:57px;
 }
 .side_right{
-  float:right;
+
 }
 
 article img{
-  margin: 100px 0 25px 0;
+  margin: 100px 0 26px 0;
 }
 
 article span{
   font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
-
+  color: #b4ad9e;
 }
 
 article h2{
   font-size: 30px;
-  margin: 25px 0 35px 0;
-  line-height: 29px;
+  margin: 25px 0 33px 0;
+  line-height: 27px;
   font-weight: 100;
 }
 
 article p{
-  height: 65px;
+  height: 85px;
   overflow: hidden;
-  line-height: 22px;
+  line-height: 24px;
 }
 
 main button{
   display: block;
-  margin: 0 auto;
   width: 165px;
   height: 65px;
   background-color: #fff;
-  margin-top: 55px;
+  margin-top: 25px;
+  margin-left: 360px;
   margin-bottom: 70px;
   font-size: 20px;
+  padding-left: 10px;
 }
 
+.last{
+  padding-top: 5px;
+}
 button:focus{
   cursor: pointer;
 }
