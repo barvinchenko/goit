@@ -1,0 +1,111 @@
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+    font-size: 15px;
+  color: #626262;
+}
+
+.wrapper {
+  width: 1198px;
+  margin: 0 auto;
+}
+
+ul, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  padding: 72px 0 0 0;
+  text-align: center;
+}
+
+header nav{
+  width: 585px;
+  margin: 0 auto;
+}
+
+nav li{
+  display: inline-block;
+  text-align: center;
+}
+
+nav a{
+  text-decoration: none;
+
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.nav_1{
+  margin-right: 100px;
+}
+
+.nav_2{
+  margin-right: 95px;
+}
+
+.nav_3{
+  margin-right: 84px;
+}
+
+main{
+  display:block;
+  margin: 0 auto;
+  width: 905px;
+}
+
+article{
+  display: inline-block;
+  width: 420px;
+  font-size: 15px;
+}
+
+.side_left{
+  margin-right: 60px;
+}
+article img{
+  margin: 100px 0 28px 0;
+}
+
+article span{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+
+}
+
+article h2{
+  font-size: 30px;
+  margin: 20px 0 45px 0;
+}
+
+article p{
+  height: 65px;
+  overflow: hidden;
+  
+}
+
+main button{
+  display: block;
+  margin: 0 auto;
+}
+
