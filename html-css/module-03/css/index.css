@@ -16,56 +16,56 @@ html {
 
 * {
   box-sizing: inherit;
+  margin:0;
+  padding: 0;
 }
 
 body {
   font-family: 'Playfair Display', serif;
-    font-size: 15px;
+  font-size: 14px;
   color: #626262;
 }
 
 .wrapper {
-  width: 1198px;
+  width: 900px;
   margin: 0 auto;
-}
-
-ul, h2 {
-  margin: 0;
-  padding: 0;
 }
 
 header{
-  padding: 72px 0 0 0;
-  text-align: center;
+  padding: 75px 0 0 0;
+  
 }
 
 header nav{
-  width: 585px;
+  width: 640px;
   margin: 0 auto;
+}
+
+nav ul{
+  width: 640px;
+  display: inline-block;
 }
 
 nav li{
   display: inline-block;
-  text-align: center;
 }
 
 nav a{
   text-decoration: none;
-
   text-transform: uppercase;
   color: #000000;
 }
 
 .nav_1{
-  margin-right: 100px;
+  margin:0 118px 0 34px;
 }
 
 .nav_2{
-  margin-right: 95px;
+  margin-right: 98px;
 }
 
 .nav_3{
-  margin-right: 84px;
+  margin-right: 90px;
 }
 
 main{
@@ -76,15 +76,19 @@ main{
 
 article{
   display: inline-block;
-  width: 420px;
-  font-size: 15px;
+  width: 425px;
+  height: 610px;
 }
 
 .side_left{
-  margin-right: 60px;
+  float:left;
 }
+.side_right{
+  float:right;
+}
+
 article img{
-  margin: 100px 0 28px 0;
+  margin: 100px 0 25px 0;
 }
 
 article span{
@@ -95,17 +99,28 @@ article span{
 
 article h2{
   font-size: 30px;
-  margin: 20px 0 45px 0;
+  margin: 25px 0 35px 0;
+  line-height: 29px;
+  font-weight: 100;
 }
 
 article p{
   height: 65px;
   overflow: hidden;
-  
+  line-height: 22px;
 }
 
 main button{
   display: block;
   margin: 0 auto;
+  width: 165px;
+  height: 65px;
+  background-color: #fff;
+  margin-top: 55px;
+  margin-bottom: 70px;
+  font-size: 20px;
 }
 
+button:focus{
+  cursor: pointer;
+}
