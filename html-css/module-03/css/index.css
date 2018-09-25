@@ -39,6 +39,7 @@ header nav{
   width: 740px;
   margin: 0 auto;
   padding-left: 50px;
+  text-align: center;
 }
 
 nav ul{
@@ -48,6 +49,11 @@ nav ul{
 
 nav li{
   display: inline-block;
+  margin-right: 80px;
+}
+
+nav li:last-child{
+  margin-right: 0;
 }
 
 nav a{
@@ -57,18 +63,6 @@ nav a{
 }
 nav a:hover{
   color: #03a9f4;
-}
-
-.nav_1{
-  margin:0 118px 0 34px;
-}
-
-.nav_2{
-  margin-right: 98px;
-}
-
-.nav_3{
-  margin-right: 90px;
 }
 
 main{
@@ -81,15 +75,12 @@ main{
 
 article{
   display: inline-block;
+  margin: 0 60px 113px 0;
+  width: 420px;
 }
 
-.side_left{
-  width: 420px;
-  margin: 0 60px 112px 0;
-}
-.side_right{
-  width: 420px;
-  margin-bottom: 113px;
+article:nth-child(2), article:nth-child(4), article:nth-child(6){
+  margin:0;
 }
 
 article img{
@@ -117,6 +108,10 @@ article p{
   font-size: 14px;
 }
 
+article:nth-child(6), article:nth-child(5){
+  margin-bottom: 30px;
+}
+
 main button{
   display: block;
   width: 167px;
@@ -127,8 +122,4 @@ main button{
   font-size: 20px;
   padding-left: 8px;
   cursor: pointer;
-}
-
-.last{
-  margin-bottom: 40px;
 }
