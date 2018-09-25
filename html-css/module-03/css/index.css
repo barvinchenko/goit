@@ -88,8 +88,8 @@ article{
   padding: 0 20px 0 5px;
 }
 .side_right{
-  width: 50%;
-  padding: -25px;
+  width: 49%;
+  padding-left: 26px;
 }
 
 article img{
@@ -113,18 +113,6 @@ article p{
   height: 85px;
   overflow: hidden;
   line-height: 24px;
-}
-
-main:nth-child(2){
-  margin-right: -0.2em;
-}
-
-main:nth-child(4){
-  margin-right: -0.2em;
-}
-
-main:nth-child(6){
-  margin-right: -0.2em;
 }
 
 main button{
