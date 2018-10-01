@@ -32,13 +32,12 @@ body {
 }
 
 .wrapper {
-  width: 1120px;
+  width: 1110px;
   margin: 0 auto;
 }
 
 .nav_site{
   width: 1110px;
-  height: 50px;
   margin: 0px 0 100px 0;
   padding-top: 25px;
 }
@@ -147,7 +146,7 @@ h2::after{
   font-weight: 1.5;
   float: left;
   text-transform: uppercase;
-  padding: 7px 0 0 10px;
+  padding: 7px 10px 0 10px;
 }
 
 .items_title span{
@@ -179,11 +178,10 @@ h2::after{
   margin: 0 40px 50px 0;
 }
 
-
-
 .blog_items img{
   display: block;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .blog_items h3{
