@@ -28,6 +28,7 @@ html {
 body {
   width: 1920px;
   margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a{
@@ -105,29 +106,45 @@ li a:hover{
   left:0;
   z-index: 1;
 }
+
+.arrows-slider{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .arrow-left{
   position: absolute;
-  top:50%;
-  left: 25%;
+  top:30%;
+  left: 15%;
   z-index: 2;
-  
+  transform: translateX(50%) translateY(50%);
 }
 .arrow-right{
   position: absolute;
-  top:50%;
-  left: 75%;
+  top:30%;
+  left: 70%;
   z-index: 3;
-  
+  transform: translateX(50%) translateY(50%);
 }
 
+.img-slider .grad{
+  width: 1920px;
+  height: 700px;
+  background-color:  rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .slider-content{
+  display: block;
   font-family: 'Roboto', sans-serif;
   position: absolute;
-  top: 43%;
-  left: 21%;
+  top: 30%;
+  left: 15%;
   z-index: 3;
   color: #fff;
-  transform: translateX(30%) translateY(30%)
+  transform: translateX(30%) translateY(30%);
 }
 
 .slider-content h1{
@@ -144,7 +161,7 @@ li a:hover{
 
 .main_wrapper{
     margin: 0 auto;
-    width: 1600px;
+    width: 1920px;
     background-color: #e9f0fd;
 }
 
@@ -156,9 +173,25 @@ li a:hover{
 .products_items {
   float: left;
   width: 255px;
+  position: relative;
 }
 
-.products_items img {
+.card_menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  /*display: none;*/
+  width: 92%;
+  height: 84%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/*.products_items:hover .card_menu {
+  display: block;
+}
+*/
+
+.product-item_img {
   display: block;
   width: 100%;
 }
@@ -166,9 +199,9 @@ li a:hover{
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   color: #515151;
-  font-weight: 1.6;
+  font-weight: 900;
   text-align: center;
-  margin: 30px 0 0 0;
+  padding: 100px 0 0 0;
   display: block;
 }
 
@@ -178,16 +211,16 @@ li a:hover{
   width: 160px;
   margin: 0 auto;
   border-bottom: 7px solid #1abc9c;
-  margin-bottom: 90px;
+  margin-bottom: 85px;
   padding-top: 30px;
 }
 
 .products_items:not(:nth-of-type(4n)) {
-  margin: 0 30px 30px 0;
+  margin: 0 30px 90px 0;
 }
 
 .products_items:nth-of-type(4n) {
-  margin: 0 0 30px 0;
+  margin: 0 0 90px 0;
 }
 
 .items_title {
@@ -227,14 +260,36 @@ li a:hover{
   background-color: #7fd9c7;
 }
 
+.but_wrapper{
+  position: relative;
+}
+
+.but{
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 21%;
+}
+
+.but_item{
+  display: inline;
+}
+
 footer {
   background-color: #323232;
+  font-family: 
 }
 
 footer h2{
-    display: block;
-    font-size: 16px;
-    width: 1110px;
-    color: #fff;
-    padding: 15px 0;
+  display: block;
+  font-size: 16px;
+  width: 1110px;
+  color: #fff;
+  padding: 40px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer span{
+  color: #1abc9c;
 }
