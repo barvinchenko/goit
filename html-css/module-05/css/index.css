@@ -180,17 +180,40 @@ li a:hover{
   position: absolute;
   top: 10px;
   left: 10px;
-  /*display: none;*/
-  width: 92%;
-  height: 84%;
+  display: none;
+  bottom: 40px;
+  right:10px;
   background: rgba(0, 0, 0, 0.5);
 }
 
-/*.products_items:hover .card_menu {
+.products_items:hover .card_menu {
   display: block;
 }
-*/
 
+
+.but_wrap{
+  margin: 0 auto;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+
+.but_item{
+  display: inline;
+}
+
+button { 
+  margin: 0;
+  padding: 0;
+  background: none;  
+  border: none;
+  height: 50px;
+  cursor: pointer
+}
+
+button:not(:last-child){
+  margin-right: 3px;
+}
 .product-item_img {
   display: block;
   width: 100%;
@@ -258,21 +281,6 @@ li a:hover{
 
 .products_items:hover span {
   background-color: #7fd9c7;
-}
-
-.but_wrapper{
-  position: relative;
-}
-
-.but{
-  margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 21%;
-}
-
-.but_item{
-  display: inline;
 }
 
 footer {
