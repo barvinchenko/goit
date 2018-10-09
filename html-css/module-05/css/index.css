@@ -97,6 +97,7 @@ li a:hover {
   position: relative;
   height: 700px;
   width: 100%;
+  overflow: hidden;
 }
 
 .img-slider {
