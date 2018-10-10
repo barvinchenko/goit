@@ -124,6 +124,7 @@ li a:hover {
   z-index: 2;
   transform: translateY(50%);
 }
+
 .arrow-right {
   position: absolute;
   top: 30%;
