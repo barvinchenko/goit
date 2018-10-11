@@ -313,7 +313,7 @@ footer {
   font-family: 'Open Sans', sans-serif;
 }
 
-footer h2 {
+footer p {
   display: block;
   width: 1110px;
   font-size: 16px;
@@ -324,6 +324,7 @@ footer h2 {
   text-align: center;
 }
 
-footer span {
+footer a {
   color: #1abc9c;
+  text-decoration: none;
 }
