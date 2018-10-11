@@ -118,6 +118,9 @@ li a:hover {
   left: 0;
   z-index: 2;
   transform: translateY(50%);
+  background-image: url('../img/arrow-left.png');
+  width: 104px;
+  height: 104px;
 }
 
 .arrow-right {
@@ -126,6 +129,9 @@ li a:hover {
   right: 0;
   z-index: 3;
   transform: translateY(50%);
+  background-image: url('../img/arrow-right.png');
+  width: 104px;
+  height: 104px;
 }
 
 .img-slider .grad {
