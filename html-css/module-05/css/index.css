@@ -170,7 +170,6 @@ li a:hover {
 .products_items {
   float: left;
   width: 255px;
-  position: relative;
 }
 
 .card_menu {
@@ -178,12 +177,15 @@ li a:hover {
   top: 10px;
   left: 10px;
   display: none;
-  bottom: 40px;
+  bottom: 10px;
   right: 10px;
   background: rgba(0, 0, 0, 0.5);
 }
+.img_grad{
+  position: relative;
+}
 
-.products_items:hover .card_menu {
+.img_grad:hover .card_menu {
   display: block;
 }
 
