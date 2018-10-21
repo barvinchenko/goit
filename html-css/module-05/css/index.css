@@ -148,7 +148,8 @@ li a:hover {
   left: 0;
   z-index: 3;
   color: #fff;
-  transform: translateX(14%) translateY(50%);
+  transform: translateX(15%) translateY(30%);
+  width: 800px;
 }
 
 .slider-content h2 {
