@@ -218,6 +218,10 @@ button:nth-of-type(2) {
   width: 50px;
 }
 
+button:last-child{
+  width: 166px;
+}
+
 button:hover {
   background-color: #1abc9c;
 }
