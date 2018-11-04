@@ -184,9 +184,11 @@ li a:hover {
 }
 
 .but_wrap {
-  margin: 0 auto;
   position: relative;
-  transform: translate(15%, 80%);
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); 
+   text-align: center;
 }
 
 .but_item {
@@ -198,14 +200,15 @@ button {
   padding: 0;
   background: none;
   border: none;
-  height: 50px;
+  width: 50px; height: 50px;
   cursor: pointer;
   border: 1px solid #fff;
 }
 
-button:not(:last-child) {
+button:nth-child(1), button:nth-child(2) {
   margin-right: 3px;
 }
+
 .product-item_img {
   display: block;
   width: 100%;
