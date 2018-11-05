@@ -121,39 +121,39 @@ a {
   margin-bottom: 10px;
 }
 
-.item p {
+.item span {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  font-style: italic;
   line-height: 1.5;
+  display: block;
+  padding-top: 15px;
 }
 
-.title {
+h2 {
   color: #333;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  width: 320px;
+  display: block;
   text-align: center;
-  height: 200px;
+  margin: 0 auto;
 }
 
-.title h3 {
+span {
   font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-size: 24px;
   margin-bottom: 20px;
+  text-transform: initial;
+  display: block;
 }
 
-.title span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-  text-transform: uppercase;
-  padding-bottom: 40px;
-}
-
-.title p {
+.team p {
   width: 950px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
@@ -161,6 +161,8 @@ a {
   line-height: 1.3;
   margin: 0 auto;
   color: #999;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
 .team {
@@ -169,11 +171,8 @@ a {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 85px;
+  padding-bottom: 70px;
   border-bottom: 1px solid #e5e5e5;
-}
-.team .title{
-  margin-bottom: 90px;
 }
 
 .section_team {
@@ -192,8 +191,13 @@ a {
 }
 
 .img-wrap {
-  height: auto;
   margin-bottom: 30px;
+}
+
+.img-wrap-img{
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .img-wrap::after {
@@ -204,7 +208,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 470px;
+  height: 471px;
   opacity: 0;
 }
 
@@ -239,7 +243,7 @@ a {
 
 .img-wrap:hover {
   transform: translate(-10px, -10px);
-  box-shadow: 10px 10px 10px #95e1d3;
+  box-shadow: 10px 10px #95e1d3;
   transition: all 200ms linear;
 }
 
@@ -252,7 +256,7 @@ a {
   transition: all 200ms linear;
 }
 
-h5,
+.foot p,
 .ab {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -260,7 +264,7 @@ h5,
   font-size: 15px;
 }
 
-span::after {
+h2::after {
   content: "";
   display: block;
   width: 100px;
