@@ -84,20 +84,11 @@ a {
   color: #95e1d3;
 }
 
-.services li {
-  list-style: none;
-}
 .services_items {
   display: flex;
-  width: 1200px;
-  height: 250px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-}
-
-.services {
-  margin-bottom: 100px;
 }
 
 .services_items li {
@@ -106,6 +97,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 100px;
 }
 .services_items img {
   display: block;
@@ -117,28 +109,29 @@ a {
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  color: #999;
-  margin-bottom: 10px;
+  color: #333;
+  margin-bottom: 15px;
 }
 
-.item span {
+p, .item span {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  font-style: italic;
   line-height: 1.5;
   display: block;
-  padding-top: 15px;
 }
 
+.item span{
+  color: #999;
+  font-style: italic;
+}
 h2 {
   color: #333;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 30px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   text-transform: uppercase;
-  width: 320px;
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -151,6 +144,7 @@ span {
   margin-bottom: 20px;
   text-transform: initial;
   display: block;
+  color: #333;
 }
 
 .team p {
@@ -169,7 +163,6 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 70px;
   border-bottom: 1px solid #e5e5e5;
@@ -178,7 +171,6 @@ span {
 .section_team {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
 }
 
 .card {
@@ -274,7 +266,7 @@ h2::after {
 }
 
 /*footer*/
-#foot {
+.foot, #foo {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
